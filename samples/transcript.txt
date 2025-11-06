@@ -1,0 +1,23 @@
+Player: look
+Model: {"narration": "You see a dusty road and an old man waving to you.", "state_change": []}
+
+Player: talk elder
+Model: {"narration": "The elder tells you the Crown was stolen into the forest.", "state_change": []}
+
+Player: move forest
+Model: {"narration": "You walk to the dark forest.", "state_change": ["move_to:forest"]}
+
+Player: take crown
+Model: {"narration": "You lift the shining Crown from a stone altar.", "state_change": ["set_flag:crown_found"]}
+Player: talk elder
+Model: {
+  "narration": "The village elder steps forward, their eyes filled with urgency. 'The crown has been stolen by the ancient cult. You must find it before the gate closes.'",
+  "state_change": []
+}
+
+Player: look
+Model: {
+  "narration": "You stand in the Village Square. Villagers chat near the well, and the Ancient Gate is visible in the distance but locked. The village elder approaches you, looking worried.",
+  "state_change": []
+}
+
