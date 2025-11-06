@@ -8,21 +8,21 @@ Welcome! This game walks you through a short text adventure game powered by a lo
 
 1. Install Ollama (if not already) and Run it
 
-- brew intall ollama 
-- ollama serve 
-- ollama pull qwen3:4b
+    - brew intall ollama 
+    - ollama serve 
+    - ollama pull qwen3:4b
 
 2. Create and Activate Virtual Environment
 
-- source venv/bin/activate 
+    - source venv/bin/activate 
 
 3. Install Dependencies 
 
-- pip install ollama
+    - pip install ollama
 
 4. Run game
 
-- python3 main.py
+    - python3 main.py
 
 ### Available Commands 
 
