@@ -1,14 +1,14 @@
 # AI Dungeon Game
 
-Welcome! This game walks you through a short text adventure game powered by a local LLM, via Ollama, where a user has to retrieve the stolen crown. It is goverened by a 'rules,json' file that enforces legal moves, locks, and win/lose conditions. Have fun!
+Welcome! This game walks you through a short text adventure game powered by a local LLM, via Ollama, where a user has to retrieve the stolen crown. It is governed by a 'rules.json' file that enforces legal moves, locks, and win/lose conditions. Have fun!
 
 --- 
 
 ### Installation and Running
 
-1. Install Ollama (if not already) and Run it
+1. Install Ollama (if not already) and run it
 
-    - brew intall ollama 
+    - brew install ollama 
     - ollama serve 
     - ollama pull qwen3:4b
 
