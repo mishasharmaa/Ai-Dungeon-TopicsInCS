@@ -24,6 +24,8 @@ Welcome! This game walks you through a short text adventure game powered by a lo
 
     - python3 main.py
 
+--- 
+
 ### Available Commands 
 
 I have implemented several commands that a user can type to play the game. Below are the commands: 
