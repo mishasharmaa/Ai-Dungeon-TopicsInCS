@@ -30,3 +30,8 @@ Welcome! This game walks you through a short text adventure game powered by a lo
 
 I have implemented several commands that a user can type to play the game. Below are the commands: 
 
+| Command | What it Does | Usage |
+|---|---|---|
+| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
+| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
+
