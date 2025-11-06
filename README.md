@@ -32,6 +32,6 @@ I have implemented several commands that a user can type to play the game. Below
 
 | Command | What it Does | Usage |
 |---|---|---|
-| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
-| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
-
+| look | describes your surroundings | look |
+| move <place> | travel to another location, if unlocked | move forest, move gate |
+| take <item> | describes your surroundings | look |
