@@ -30,8 +30,8 @@ Welcome! This game walks you through a short text adventure game powered by a lo
 
 I have implemented several commands that a user can type to play the game. Below are the commands: 
 
-| Command | What it Does | Usage |
-|---|---|---|
+| Command | What it Does | 
+|---|---|
 | look around | See what’s in your area (Village Square, forest, etc.) | 
 | look well | Inspect the well closely | 
 | talk elder | Speak to the village elder for clues | 
