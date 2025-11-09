@@ -32,15 +32,20 @@ I have implemented several commands that a user can type to play the game. Below
 
 | Command | What it Does | Usage |
 |---|---|---|
-| look | describes your surroundings | look |
-| move place | travel to another location, if unlocked | move forest, move gate |
-| take item | pick up an item | take key, take crown |
-| talk | talk to a NPC | talk elder |
-| inventory | Lists the items you are carrying | inventory |
-| help | show all available commands | help |
-| save | save progress to save.json | save | 
-| load | load previously saved game | load | 
-| quit | quit current game | quit |
+| look around | See what’s in your area (Village Square, forest, etc.) | 
+| look well | Inspect the well closely | 
+| talk elder | Speak to the village elder for clues | 
+| search well | Search the well to find the hidden key | 
+| take key | Pick up the key once it’s found | 
+| use key | Use the key to unlock the Ancient Gate | 
+| move gate | Move toward or open the gate | 
+| move forest | Enter the forest beyond the gate |  
+| take crown | Pick up the Crown to win the quest | 
+| inventory | View your collected items |
+| help | See all available commands |
+| save | Save your progress | 
+| load | Load your saved game | 
+| quit | Exit the game |
 
 Any other commands, like "run away" or "attack monster" are invalid. 
 
