@@ -82,7 +82,7 @@ This file defines what the world allows, commands, quest structure, and the limi
 ### File Summary 
 
 | File | Purpose|
-|---|---|---|
+|---|---|
 | main.py | Game loop with Ollama integration |
 | rules.json | Defines rules, commands, quest, locks |
 | prompts/gm.txt | Game Master system prompt | 
