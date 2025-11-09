@@ -34,4 +34,4 @@ I have implemented several commands that a user can type to play the game. Below
 |---|---|---|
 | look | describes your surroundings | look |
 | move <place> | travel to another location, if unlocked | move forest, move gate |
-| take <item> | describes your surroundings | look |
+| take item | describes your surroundings | look |
