@@ -64,6 +64,19 @@ This file defines what the world allows, commands, quest structure, and the limi
 }
 
 --- 
+#### To Change Quest 
+
+Edit "goal_flag" and "name" under "QUEST"
+
+#### To Add A Lock 
+
+"LOCKS": { "Castle Door": "have_silver_key" }
+
+#### To Add A Command
+
+Add to "COMMANDS" list, e.g. "attack <enemy>"
+
+---
 
 ### How to Play 
 
