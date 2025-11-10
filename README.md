@@ -111,6 +111,8 @@ Add to "COMMANDS" list, e.g. "attack <enemy>"
 
 ### Example Session 
 
+#### Win Situation 
+
 The village elder begs you to recover the stolen Crown.
 
 Location: Village Square
@@ -190,3 +192,18 @@ Narration:
 Flag set: crown_found
 
 You completed the quest!
+
+#### Lose Situation 
+
+The village elder begs you to recover the stolen Crown.
+
+Location: Village Square
+> move gate
+
+Narration:
+{
+  "narration": "You approach the Ancient Gate, but it is locked with a heavy iron bar. The elder says you need the key to proceed.",
+  "state_change": []
+}
+
+Location: Village Square
