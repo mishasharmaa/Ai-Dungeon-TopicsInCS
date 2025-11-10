@@ -111,7 +111,7 @@ Add to "COMMANDS" list, e.g. "attack <enemy>"
 
 ### Example Session 
 
-#### Win Situation 
+#### I. Win Situation 
 
 The village elder begs you to recover the stolen Crown.
 
@@ -193,7 +193,7 @@ Flag set: crown_found
 
 You completed the quest!
 
-#### Locked Move Situation 
+####  II. Locked Move Situation 
 
 The village elder begs you to recover the stolen Crown.
 
