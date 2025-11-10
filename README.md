@@ -188,4 +188,5 @@ Narration:
 }
 
 Flag set: crown_found
+
 You completed the quest!
