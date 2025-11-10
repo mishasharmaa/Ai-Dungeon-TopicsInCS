@@ -193,7 +193,7 @@ Flag set: crown_found
 
 You completed the quest!
 
-#### Lose Situation 
+#### Locked Move Situation 
 
 The village elder begs you to recover the stolen Crown.
 
