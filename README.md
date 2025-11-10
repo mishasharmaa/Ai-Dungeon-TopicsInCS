@@ -186,5 +186,6 @@ Narration:
     "set_flag:crown_found"
   ]
 }
+
 Flag set: crown_found
 You completed the quest!
