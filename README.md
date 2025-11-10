@@ -85,7 +85,7 @@ Add to "COMMANDS" list, e.g. "attack <enemy>"
 
 ### How to Play 
 
-1. Player enter commands {talk elder}
+1. Player enter commands when prompted
 2. The engine sends commands, rules, and state to the loal model (qwen3:4b)
 3. The game replies in JSON with:
    - {
@@ -94,6 +94,7 @@ Add to "COMMANDS" list, e.g. "attack <enemy>"
     }
 4. The narration prints, and legal state changes are enforced
 5. The game ends when win or lose conditions are met
+6. When the 'save' command is typed, a 'save.json' file is created. 
 
 ---
 
