@@ -21,3 +21,169 @@ Model: {
   "state_change": []
 }
 
+Player: look
+Model: {
+  "narration": "You are in the Village Square. The village elder stands by a stone bench, urgently explaining that the Crown has been stolen from the Ancient Gate. The gate itself is locked with a rusted iron bar, but you don't have the key yet.",
+  "state_change": []
+}
+
+Player: talk elder
+Model: {
+  "narration": "The village elder, a weathered man with deep wisdom, approaches you. 'The crown has been stolen by the bandits,' he says. 'You must find it before they can use it for harm. The key to the Ancient Gate is hidden in the village well.'",
+  "state_change": []
+}
+
+Player: take key
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: look
+Model: {
+  "narration": "You are in the Village Square. The sun is setting, casting long shadows across the stone paths. The village elder stands near the central fountain, his weathered face showing worry. A small stone pillar with a broken crown emblem lies half-buried in the grass.\n\nThe elder approaches and says: 'The crown was stolen last night. I need your help to find it before the darkness falls.'",
+  "state_change": []
+}
+
+Player: move
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: look well
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: talk elder
+Model: {
+  "narration": "The village elder, with a worried expression, explains that the crown was stolen by a shadowy figure and is hidden behind the Ancient Gate. To reach it, you need the key that the elder has. The elder hands you a key.",
+  "state_change": ["add_item:key"]
+}
+
+Player: take key
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: talk elder
+Model: {
+  "narration": "The village elder, a weathered man with a kind face, approaches you. 'The crown was stolen by the bandits from the Ancient Gate,' he says, his voice heavy with worry. 'You must find it before they return.'",
+  "state_change": []
+}
+
+Player: look around
+Model: {
+  "narration": "You stand in the Village Square. The cobblestone paths are worn smooth by time, and the village elder sits by a weathered fountain. In the distance, an ancient stone gate with a keyhole is partially hidden by wild bushes.",
+  "state_change": []
+}
+
+Player: look well
+Model: {
+  "narration": "You are in the Village Square. The Ancient Gate stands locked at the far end, its iron bars gleaming under the sun. The village elder, his face etched with worry, stands near the gate, looking at you with a plea in his eyes.",
+  "state_change": []
+}
+
+Player: talk elder
+Model: {
+  "narration": "The village elder, a weathered man with eyes that hold the weight of centuries, steps forward. 'The Crown has been stolen by shadowy figures from the west,' he begins, his voice low but urgent. 'To restore peace, you must find the key hidden in the village well and unlock the Ancient Gate. Only then can you retrieve the Crown.'",
+  "state_change": []
+}
+
+Player: look well
+Model: {
+  "narration": "An old stone well stands in the center of the Village Square, its rusted iron cover broken and loose. The murky water inside reflects the sky faintly, and you notice a small indentation at the bottom that might hold something.",
+  "state_change": []
+}
+
+Player: search well
+Model: {
+  "narration": "You carefully search the old stone well in the village square. After a moment, your fingers brush against a small iron key hidden beneath the moss. You pull it free and hold it in your hand.",
+  "state_change": ["add_item:key"]
+}
+
+Player: use key
+Model: {
+  "narration": "You unlock the Ancient Gate with the key. The gate creaks open, revealing a path into the forest.",
+  "state_change": [
+    "set_flag:have_key"
+  ]
+}
+
+Player: move gate
+Model: {
+  "narration": "You approach the Ancient Gate, which is now unlocked by the key you carry.",
+  "state_change": ["move_to:forest"]
+}
+
+Player: look around
+Model: {
+  "narration": "You step into the forest clearing and see an ancient stone altar. On the altar sits a golden crown, its intricate design catching the sunlight.",
+  "state_change": []
+}
+
+Player: take crown
+Model: {
+  "narration": "You pick up the ancient Crown from the forest floor. The quest to recover the stolen Crown is complete!",
+  "state_change": [
+    "set_flag:crown_found"
+  ]
+}
+
+Player: move gate
+Model: {
+  "narration": "You approach the Ancient Gate, but it is locked with a heavy iron bar. The elder says you need the key to proceed.",
+  "state_change": []
+}
+
+Player: move forest
+Model: {
+  "narration": "The Ancient Gate stands firmly in place, locked with an iron chain. You need the key to enter the forest.",
+  "state_change": []
+}
+
+Player: take crown
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: move gate
+Model: {
+  "narration": "You approach the Ancient Gate, but it is locked. You need the key to proceed.",
+  "state_change": []
+}
+
+Player: move forest
+Model: {
+  "narration": "You can’t move to the forest. The Ancient Gate is locked without the key.",
+  "state_change": []
+}
+
+Player: use key
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+Player: move gate
+Model: {
+  "narration": "You approach the Ancient Gate, but it is locked. You need the key to proceed.",
+  "state_change": []
+}
+
+Player: move forest
+Model: {
+  "narration": "The Ancient Gate stands locked before you. You need the key to proceed into the forest.",
+  "state_change": []
+}
+
+Player: take crown
+Model: {
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+

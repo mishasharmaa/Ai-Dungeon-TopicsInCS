@@ -4,11 +4,14 @@
   "INVENTORY_LIMIT": 3,
 
   "COMMANDS": [
-    "look",
-    "move <place>",
-    "take <item>",
-    "use <item>",
-    "talk <npc>",
+    "look around",
+    "look well",
+    "search well",
+    "talk elder",
+    "use key",
+    "move gate",
+    "move forest",
+    "take crown",
     "inventory",
     "help",
     "save",
@@ -16,7 +19,7 @@
     "quit"
   ],
 
-  "LOCKS": { "Ancient Gate": "have_key" },
+  "LOCKS": { "forest": "have_key" },
 
   "QUEST": {
     "name": "Find the Crown",
@@ -27,7 +30,7 @@
   "END_CONDITIONS": {
     "WIN_ALL_FLAGS": ["crown_found"],
     "LOSE_ANY_FLAGS": ["hp_zero"],
-    "MAX_TURNS": 10
+    "MAX_TURNS": 15
   },
 
   "START": {
