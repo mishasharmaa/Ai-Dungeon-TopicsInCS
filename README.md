@@ -111,7 +111,7 @@ Add to "COMMANDS" list, e.g. "attack <enemy>"
 
 ### Example Session 
 
-#### I. Win Situation 
+#### I. Win Situation/ Inventory Cap
 
 The village elder begs you to recover the stolen Crown.
 
