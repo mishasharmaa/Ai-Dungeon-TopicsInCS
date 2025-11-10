@@ -207,3 +207,36 @@ Narration:
 }
 
 Location: Village Square
+
+#### III. Lose Situation
+
+The village elder begs you to recover the stolen Crown.
+
+Location: Village Square
+> move gate
+
+Narration:
+{
+  "narration": "You approach the Ancient Gate, but it is locked. You need the key to proceed.",
+  "state_change": []
+}
+
+Location: Village Square
+> move forest
+
+Narration:
+{
+  "narration": "The Ancient Gate stands locked before you. You need the key to proceed into the forest.",
+  "state_change": []
+}
+
+Location: Village Square
+> take crown
+
+Narration:
+{
+  "narration": "You can’t do that. Try something else.",
+  "state_change": []
+}
+
+You kept attempting actions that failed. Time runs out, and your journey ends in silence.
